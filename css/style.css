@@ -17,6 +17,51 @@ html{
     flex-wrap: wrap;
     gap: 30px 10px;
 }
+/* Header */
+.box-header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 106, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.box-nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-nav .list{
+    width: 20%;
+}
+.style-list{
+    color:white;
+    font-size: 1.6rem;
+    margin-right: .5rem;
+    font-weight: 700;
+}
+.box-nav .logo{
+    width:60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img{
+    width: 200px
+}
+
+.box-nav .pay{
+    width: 20%;
+    text-align: end;
+}
+/* Main */
+.box{
+    margin-top: 100px;
+}
 .cont{
     position: relative; 
     width: calc(100% / 3 - 10px);
@@ -64,6 +109,13 @@ html{
 .text h4{
     font-size: 1.4rem;
 }
+.white{
+    color: white;
+    font-size: 1.8rem;
+}
+.mr{
+    margin-right: .8rem;
+}
 /* Unity */
 .red{
     color: red;
@@ -87,4 +139,7 @@ html{
     padding: .5rem 1.4rem;
     background-color: white;
 }
+
+
+
 
