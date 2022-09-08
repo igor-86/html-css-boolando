@@ -29,7 +29,7 @@ html{
 }
 .box-nav{
     width: 80%;
-    height: 80px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -84,8 +84,9 @@ html{
     left: 0;
     bottom: 3em;
     display: flex;
+    flex-wrap: wrap;
 }
- .discount > h3{
+ .discount > span{
     margin-right: .5em;
     color: white;
     padding: .4em .8em;
@@ -101,7 +102,7 @@ html{
 }
 .box-cont{
     width: 80%;
-    height: 80px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -127,6 +128,9 @@ html{
 /* Hover Effects */
 .cont:hover #due{
     display: none;
+}
+.heart:hover{
+    color: red;
 }
 /* _____________ */
 
@@ -168,8 +172,12 @@ html{
     position:absolute;
     top: .5em;
     right: 0;
-    padding: .5rem 1.4rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
     background-color: white;
+    cursor: pointer;
 }
 .he{
     font-size: 1.2rem;
